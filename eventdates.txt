@@ -1,0 +1,118 @@
+name,date,event
+Öläf,01.01.2010, Gebürtstag
+#test2,04.06.2012, Geburtstag
+#test3,05.06.1900, Arbeitsönde
+#test4,06.06.1900, Geb�rtstag
+Rainer Lünsmann,14.09.1900,Geburtstag
+Uschi Grabow,20.08.1900,Geburtstag
+Harald Harders,25.08.1949,Geburtstag
+Olaf Michel,29.08.1900,Geburtstag
+Christian Droste,30.05.1965,Geburtstag
+Henning Plump,18.05.1900,Geburtstag
+Bernd Krumm,17.03.1900,Geburtstag
+Jörg Mehrtens,17.03.1900,Geburtstag
+Lars Hauer,22.10.1900,Geburtstag
+Harald Harders,25.08.1949,Geburtstag
+Joachim Lassak,10.03.1960,Geburtstag
+Carsten Bärmann*,07.12.1900,Geburtstag
+Stephan Weber,14.07.1900,Geburtstag
+Wilfried Geisler,05.06.1950,Geburtstag
+Jo Schmuck,16.03.1963,Geburtstag
+Ulli Grabow,23.07.1949,Geburtstag
+Dietmar Spiekermann,14.07.1900,Geburtstag
+S�nke Meyer,19.06.2014,Geburtstag
+Dieter Speiser,28.02.1935,Geburtstag
+Martin Dahlheimer,17.12.2013,Geburtstag
+Stefan Uellner,30.09.2013,Geburtstag
+Dirk Nordhusen,04.09.2013,Geburtstag
+Heidi Tilliger,31.07.2013,Geburtstag
+Sandra Häming-Paul,02.08.2013,Geburtstag
+Ich,31.10.2018,Reformationstag
+Jens Mühlner,28.06.2012,Geburtstag
+Anja Wilhelm,13.06.2012,Geburtstag
+Nico Weyers,05.04.2012,Geburtstag
+Marco Dreyer,06.03.2012,Geburtstag
+Matthias Manthey,01.03.2012,Geburtstag
+Stefan Uellner,30.09.1961,Geburtstag
+Doris Kempe,29.06.2011,Geburtstag
+Tanja Bosse,05.02.2005,Geburtstag
+Heyko Janssen,01.12.1967,Geburtstag
+Reiner Beermann,07.09.2005,Geburtstag
+Ich,22.08.1997,Hochzeitstag
+Ariane Schindler,13.08.2005,Geburtstag
+Andrea Koester,31.07.2005,Geburtstag
+Es,01.01.2006,Neujahr
+Iris Rose,11.12.2005,Geburtstag
+Petra,09.03.1969,Geburtstag
+Christian Renken,19.10.1975,Geburtstag
+Fabian,30.07.2003,Geburtstag
+Alina,23.02.2000,Geburtstag
+Sandra Renken,29.01.2006,Geburtstag
+Anke Grünewald,28.09.2005,Geburtstag
+Sven Schindler,19.05.2005,Geburtstag
+Anchen,21.05.2006,Geburtstag
+Marc-Lennart Seibold,13.05.2000,Geburtstag
+Michael Mann,08.01.2005,Geburtstag
+Andreas Rullmann,27.01.2005,Geburtstag
+Chris Zander,08.02.2005,Geburtstag
+Nobert Max,11.03.2005,Geburtstag
+Klaus Borchers,08.05.2005,Geburtstag
+Arne Wallrabe,23.02.2005,Geburtstag
+Marc Stindt,06.05.2005,Geburtstag
+Tag der Arbeit,01.05.2006,Geburtstag
+York Scheffczyk,09.03.2005,Geburtstag
+Mario Seibold,10.01.2005,Geburtstag
+Torsten Behling,30.01.2005,Geburtstag
+Arne Rose,30.01.2006,Geburtstag
+Mama Goebel,09.03.2005,Geburtstag
+Felix Schindler,09.03.2006,Geburtstag
+Andreas Fleer,25.03.2006,Geburtstag
+Noemi Schindler,22.04.2005,Geburtstag
+Dieter Dahlmann,24.04.2005,Geburtstag
+Johann Luecken,05.05.2006,Geburtstag
+FW Bremer,25.04.2006,Geburtstag
+Juergen Habermann,30.12.2005,Geburtstag
+Volker Genz,16.06.2005,Geburtstag
+Rainer Viebrock,17.06.2005,Geburtstag
+Christian Karsten,28.06.2005,Geburtstag
+Frank Siemers,17.07.2005,Geburtstag
+Rolf Werner,09.08.2005,Geburtstag
+Olaf Bissendorf,10.08.2005,Geburtstag
+Matthias Renken :-),15.08.1968,Geburtstag
+Alexander Chelkovitch,23.08.2005,Geburtstag
+Wilhelm Alfke,26.08.2005,Geburtstag
+Stephanie Kurk,08.09.2005,Geburtstag
+Ute Schmid,25.09.2005,Geburtstag
+Marion Rose,05.10.2005,Geburtstag
+Ditmar Rose,06.11.2005,Geburtstag
+Torsten Nolte,18.11.2005,Geburtstag
+Rolf Okken,22.11.2005,Geburtstag
+Christiane Divanoglu,20.12.2005,Geburtstag
+Torsten Goncz,21.06.2005,Geburtstag
+Thomas Goetz,26.07.2005,Geburtstag
+Carin Renken,15.07.1947,Geburtstag
+Carmen Seibold,23.07.2006,Geburtstag
+Leonie Goebel,23.07.2006,Geburtstag
+Britta Beermann,11.08.2005,Geburtstag
+Michael Goebel,05.09.2005,Geburtstag
+Maria Goebel,14.09.2005,Geburtstag
+Horst Renken,06.10.1944,Geburtstag
+Stefanie Goebel,23.11.2005,Geburtstag
+Angelika Gastens,10.10.2008,Geburtstag
+Marvin Mende,20.12.2011,Geburtstag
+Anja Kuhlmann,04.12.2011,Geburtstag
+Nermin Behling,26.11.2011,Geburtstag
+Wilfried Staude,17.11.2011,Geburtstag
+Robert Albrecht,01.04.2019,Geburtstag
+Hubertus von der Heyde,30.12.1966,Geburtstag
+Markus Mende,07.06.1968, Geburtstag
+Geske Renken,11.06.2014, Geburtstag
+Jan Haferkamp,31.03.1965, Geburtstag
+Mein Test, 15.01.2023, Gestern
+Mein Test, 14.01.2023, Vorgestern
+Mein Test, 18.01.2023, Übermorgen
+Mein Test, 17.01.2023, Morgen
+Mein Test, 16.01.2023, Heute
+
+
+
