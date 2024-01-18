@@ -1,9 +1,9 @@
 """
-Event Reminder
-
-Reads a list of events stored in a separate file and reads out all event dates.
-Checks if one of the events in the lists occurs around today.
-If so a pop-up will show the event.
+#Event Reminder
+#
+#Reads a list of events stored in a separate file and reads out all event dates.
+#Checks if one of the events in the lists occurs around today.
+#If so a pop-up will show the event.
 """
 
 from datetime import datetime as dt
