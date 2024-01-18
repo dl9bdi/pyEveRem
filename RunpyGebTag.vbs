@@ -1,0 +1,1 @@
+CreateObject("Wscript.Shell").Run "pyGebTag.bat",0,True
