@@ -60,7 +60,7 @@ for data_row in data:
     diff_event_today = day_difference(today, event_date)
     reminder_str = ""
     if abs(diff_event_today) < 3:
-        print("shortdiff: ", day_difference(today, event_date))
+        #print("shortdiff: ", day_difference(today, event_date))
         if diff_event_today == -2:
             reminder_str = f"{data_row["name"].strip()} hatte vorgestern {data_row["event"].strip()}."
         if diff_event_today == -1:
@@ -77,9 +77,9 @@ for data_row in data:
         active_events[dict_entry]['event'] = reminder_str
         dict_entry += 1
 
-print(active_events)
+#print(active_events)
 sorted_events = sorted(active_events.items(), key=lambda x: x[1]["diff"])
-print(sorted_events)
+#print(sorted_events)
 
 
 # Buttons
@@ -104,14 +104,14 @@ if len(sorted_events) > 0:
     for single_event in sorted_events:
 
         marker = ""
-        print(single_event[1]["diff"])
+        #print(single_event[1]["diff"])
         if (abs(int(single_event[1]["diff"]))) == 1:
             marker = "warning"
         if (abs(int(single_event[1]["diff"]))) == 0:
             marker = "alert"
 
         event_list.insert(END, single_event[1]["event"] + "\n", marker)
-        print(single_event[1]["event"])
+        #print(single_event[1]["event"])
     event_list.config(state=DISABLED)
     window.update()
     playsound('./alert_sound.mp3')
