@@ -19,7 +19,9 @@ today_tuple = (today.month, today.day)
 try:
     tmp_data = pandas.read_csv(event_filename)
 except FileNotFoundError:
-    messagebox.showerror(title="File not found", message="Could not open file " + event_filename)
+    messagebox.showerror(
+        title="File not found", message="Could not open file " + event_filename
+    )
     exit(1)
 
 data = tmp_data.to_dict(orient="records")
@@ -54,13 +56,15 @@ for data_row in data:
     try:
         event_date = dt.strptime(data_row["date"].strip(), "%d.%m.%Y").date()
     except ValueError as errormessage:
-        messagebox.showerror(title="Data format error ", message=f"Could not convert to date format:\n {errormessage}")
+        messagebox.showerror(
+            title="Data format error ",
+            message=f"Could not convert to date format:\n {errormessage}")
         exit(2)
 
     diff_event_today = day_difference(today, event_date)
     reminder_str = ""
     if abs(diff_event_today) < 3:
-        single_name = data_row["name"].strip();
+        single_name = data_row["name"].strip()
         single_event = data_row["event"].strip()
         # print("shortdiff: ", day_difference(today, event_date))
         if diff_event_today == -2:
@@ -98,7 +102,7 @@ if len(sorted_events) > 0:
     window.configure(background="lightblue")
 
     # info_label = Label(text="Found events").grid(column=0, row=0)
-    exit_button = (Button(width=15, height=2, text="Ende", command=click_exit))
+    exit_button = Button(width=15, height=2, text="Ende", command=click_exit)
     exit_button.grid(column=1, row=2, pady=10)
     event_list = Text(window, height=20, width=70, font=("Arial", 12, "normal"))
     event_list.grid(column=1, row=1, padx=20, pady=10)
@@ -117,7 +121,7 @@ if len(sorted_events) > 0:
         event_list.insert(END, single_event[1]["event"] + "\n", marker)
         # print(single_event[1]["event"])
     event_list.config(state=DISABLED)
-    playsound('alert.mp3')
+    playsound("./alert.mp3")
     window.update()
 
     window.mainloop()
