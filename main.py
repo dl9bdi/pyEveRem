@@ -7,7 +7,11 @@
 """
 
 from datetime import datetime as dt
-from tkinter import *
+from tkinter import Tk
+from tkinter import Button
+from tkinter import Text
+from tkinter import END
+from tkinter import  DISABLED
 from tkinter import messagebox
 import pandas
 from playsound import playsound
