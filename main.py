@@ -58,7 +58,8 @@ for data_row in data:
     except ValueError as errormessage:
         messagebox.showerror(
             title="Data format error ",
-            message=f"Could not convert to date format:\n {errormessage}")
+            message=f"Could not convert to date format:\n {errormessage}",
+        )
         exit(2)
 
     diff_event_today = day_difference(today, event_date)
@@ -79,8 +80,8 @@ for data_row in data:
             reminder_str = f"{single_name} hat übermorgen {single_event}."
         # active_events.append(reminder_str)
         active_events[dict_entry] = {}
-        active_events[dict_entry]['diff'] = diff_event_today
-        active_events[dict_entry]['event'] = reminder_str
+        active_events[dict_entry]["diff"] = diff_event_today
+        active_events[dict_entry]["event"] = reminder_str
         dict_entry += 1
 
 # print(active_events)
