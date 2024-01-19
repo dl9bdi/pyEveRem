@@ -60,26 +60,30 @@ for data_row in data:
     diff_event_today = day_difference(today, event_date)
     reminder_str = ""
     if abs(diff_event_today) < 3:
-        #print("shortdiff: ", day_difference(today, event_date))
+        single_name = data_row["name"].strip();
+        single_event = data_row["event"].strip()
+        # print("shortdiff: ", day_difference(today, event_date))
         if diff_event_today == -2:
-            reminder_str = f"{data_row["name"].strip()} hatte vorgestern {data_row["event"].strip()}."
+            reminder_str = f"{single_name} hatte vorgestern {single_event}."
         if diff_event_today == -1:
-            reminder_str = f"{data_row["name"].strip()} hatte gestern {data_row["event"].strip()}."
+            reminder_str = f"{single_name} hatte gestern {single_event}."
         if diff_event_today == 0:
-            reminder_str = f"{data_row["name"].strip()} hat heute {data_row["event"].strip()}."
+            reminder_str = f"{single_name} hat heute {single_event}."
         if diff_event_today == 1:
-            reminder_str = f"{data_row["name"].strip()} hat morgen {data_row["event"].strip()}."
+            reminder_str = f"{single_name} hat morgen {single_event}."
         if diff_event_today == 2:
-            reminder_str = f"{data_row["name"].strip()} hat übermorgen {data_row["event"].strip()}."
+            reminder_str = f"{single_name} hat übermorgen {single_event}."
         # active_events.append(reminder_str)
         active_events[dict_entry] = {}
         active_events[dict_entry]['diff'] = diff_event_today
         active_events[dict_entry]['event'] = reminder_str
         dict_entry += 1
 
-#print(active_events)
+# print(active_events)
 sorted_events = sorted(active_events.items(), key=lambda x: x[1]["diff"])
-#print(sorted_events)
+
+
+# print(sorted_events)
 
 
 # Buttons
@@ -104,16 +108,16 @@ if len(sorted_events) > 0:
     for single_event in sorted_events:
 
         marker = ""
-        #print(single_event[1]["diff"])
+        # print(single_event[1]["diff"])
         if (abs(int(single_event[1]["diff"]))) == 1:
             marker = "warning"
         if (abs(int(single_event[1]["diff"]))) == 0:
             marker = "alert"
 
         event_list.insert(END, single_event[1]["event"] + "\n", marker)
-        #print(single_event[1]["event"])
+        # print(single_event[1]["event"])
     event_list.config(state=DISABLED)
+    playsound('alert.mp3')
     window.update()
-    playsound('./alert_sound.mp3')
 
     window.mainloop()
