@@ -10,9 +10,10 @@ from datetime import datetime as dt
 from tkinter import DISABLED, END, Button, Text, Tk, messagebox
 
 import pandas
+from difference_tools import day_difference
 from playsound import playsound
 
-from difference_tools import day_difference
+
 
 event_filename = "eventdates.txt"
 today = dt.now().date()
