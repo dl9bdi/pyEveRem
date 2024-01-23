@@ -6,7 +6,6 @@
 #If so a pop-up will show the event.
 """
 
-
 from datetime import datetime as dt
 from tkinter import DISABLED, END, Button, Text, Tk, messagebox
 
@@ -51,7 +50,8 @@ def day_difference(date1, date2):
     return short_difference
 
 
-active_events = {}
+# active_events = {}
+active_events: dict[int: dict[int, str, str]] = {}
 dict_entry = 0
 for data_row in data:
     try:
@@ -62,7 +62,6 @@ for data_row in data:
             message=f"Could not convert to date format:\n {errormessage}",
         )
         exit(2)
-
     diff_event_today = day_difference(today, event_date)
     reminder_str = ""
     if abs(diff_event_today) < 3:
@@ -85,7 +84,7 @@ for data_row in data:
         active_events[dict_entry]["event"] = reminder_str
         dict_entry += 1
 
-# print(active_events)
+print(active_events)
 sorted_events = sorted(active_events.items(), key=lambda x: x[1]["diff"])
 
 
