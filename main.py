@@ -6,8 +6,10 @@
 #If so a pop-up will show the event.
 """
 
+
 from datetime import datetime as dt
-from tkinter import Tk, Button, Text, END, DISABLED, messagebox
+from tkinter import DISABLED, END, Button, Text, Tk, messagebox
+
 import pandas
 from playsound import playsound
 
