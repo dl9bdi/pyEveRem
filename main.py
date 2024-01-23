@@ -13,8 +13,6 @@ import pandas
 from difference_tools import day_difference
 from playsound import playsound
 
-
-
 event_filename = "eventdates.txt"
 today = dt.now().date()
 
