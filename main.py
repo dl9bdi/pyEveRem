@@ -51,7 +51,7 @@ def day_difference(date1, date2):
 
 
 # active_events = {}
-active_events: dict[int, dict[int, str, str]] = {}
+active_events: dict[int, dict[int, str]] = {}
 dict_entry = 0
 for data_row in data:
     try:
